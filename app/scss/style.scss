@@ -71,12 +71,12 @@ body {
 
 // /* Heading */
 
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: $fontFamily-serif;
   // line-height: $lineHeight-tight;
   // letter-spacing: -0.025em;
@@ -145,3 +145,4 @@ body {
 
 @import "header";
 @import "hero";
+@import "feature";
