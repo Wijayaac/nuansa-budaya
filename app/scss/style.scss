@@ -58,11 +58,10 @@ $fontFamily-serif: "Merriweather", "Georgia", Cambria, "Times New Roman", Times,
 //   -moz-osx-font-smoothing: grayscale;
 // }
 
-body {
-  // font-family: $font-body;
-  // font-size: $fontSize-1;
-  min-height: 250vh;
-}
+// body {
+// font-family: $font-body;
+// font-size: $fontSize-1;
+// }
 
 // hr {
 //   height: 1px;
@@ -146,3 +145,4 @@ h6 {
 @import "header";
 @import "hero";
 @import "feature";
+@import "about";

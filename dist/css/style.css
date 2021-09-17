@@ -11370,10 +11370,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-body {
-  min-height: 250vh;
-}
-
 h1, .h1,
 h2,
 .h2,
@@ -11476,6 +11472,15 @@ h6,
 .feature-title:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+.about {
+  max-width: 20rem;
+}
+@media (min-width: 768px) {
+  .about {
+    max-width: 54rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
