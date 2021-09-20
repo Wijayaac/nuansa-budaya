@@ -1,5 +1,8 @@
 /* CSS Custom Properties Definitions */
 // First override some or all individual color variables
+$fontFamily-serif: "Merriweather", "Georgia", Cambria, "Times New Roman", Times,
+  serif;
+
 $primary: #f6b93b;
 $secondary: #8f5325;
 $success: #3e8d63;
@@ -25,8 +28,6 @@ $theme-colors: (
 // $fontFamily-sans: Montserrat, system-ui, -apple-system, BlinkMacSystemFont,
 //   "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
 //   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-$fontFamily-serif: "Merriweather", "Georgia", Cambria, "Times New Roman", Times,
-  serif;
 // $font-body: $fontFamily-serif;
 // $font-heading: $fontFamily-sans;
 // $fontWeight-bold: 700;
